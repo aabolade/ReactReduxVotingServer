@@ -36,3 +36,5 @@ function getWinners(vote) {
   else if (aVotes < bVotes) return [b];
   else return [a,b];
 }
+
+export const INITIAL_STATE = Map();
